@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoestore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="Icon" href="logo/logo.png">
+</head>
+<body>
+    <header class="header">
+        <img src="logo/logo.png" alt="">
+        <div class="humburger-nav">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#footer">ABOUT</a></li>
+                <li><a href="#other">MORE</a></li>
+            </ul>
+            <form action="">
+                <input type="search" class="search" placeholder="search" required>
+                <input type="submit" class="submit" value="find">
+            </form>
+        </div>
+        <div class="cart">
+            <span></span>
+            <a href="#content-troli"><img class="content-cart" src="logo/cart.png" alt=""></a>
+            <div id="content-troli">
+                <a href="#" class="back-btn"><img src="gambar/arrow.png" class="back-btn-cart"></a>
+                <div class="cekOut">
+                    <h4 class="totalPrice"></h4>
+                    <h3>CEK OUT</h3>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    <main class="container">
+        <div class="deskrip">
+            <P>Shoestore Shoes</P>
+            <h1>FIND YOUR FEEL</h1>
+            <p>Make your moves with total control in the new AJXXXVIII Low 'Fresh Start'. Inspired by the season of rebirth, with pastel tones and cutting-edge tech designed for mobility and explosiveness</p>
+        </div>
+        <div class="produk">
+            <ul>
+                <li>
+                    <a href="#gambar1"><img src="gambar/Air Jordan 1 Mid 'Desert Sand' - Air Jordan - 554724 047 - desert sand_white-black.jpg" alt=""></a>
+
+                    <div class="overlay" id="gambar1">
+                        <a href="#" class="exit">X</a>
+                        <div class="subContent">
+                            <div class="caption">
+                                <img src="gambar/Air Jordan 1 Mid 'Desert Sand' - Air Jordan - 554724 047 - desert sand_white-black.jpg" alt="">
+                                <div class="capt">Air Jordan 1 Mid 'Desert Sand' - Air Jordan - 554724 047 - desert sand_white-black</div>
+                                <h3>Rp 789.500</h3>
+                                <div class="troli">ADD CART</div>
+                            </div>
+                            <div class="sale"> 
+                                <div class="buy">BUY</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#gambar2"><img src="gambar/First Look_ Nike Blazer Mid '77 “Indigo”.jpg" alt=""></a>
+
+                    <div class="overlay" id="gambar2">
+                        <a href="#" class="exit">X</a>
+                        <div class="subContent">
+                            <div class="caption">
+                                <img src="gambar/First Look_ Nike Blazer Mid '77 “Indigo”.jpg" alt="">
+                                <div class="capt">First Look_ Nike Blazer Mid '77 “Indigo</div>
+                                <h3>Rp 976.899</h3>
+                                <div class="troli" onclick=addTroli()>ADD CART</div>
+                            </div>
+                            <div class="sale"> 
+                                
+                                <div class="buy">BUY</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#gambar3"><img src="gambar/Nike Air Force 1 Low '07 _White _ Black_ - Stadium Goods.jpg" alt=""></a>
+
+                    <div class="overlay" id="gambar3">
+                        <a href="#" class="exit">X</a>
+                        <div class="subContent">
+                            <div class="caption">
+                                <img src="gambar/Nike Air Force 1 Low '07 _White _ Black_ - Stadium Goods.jpg" alt="">
+                                <div class="capt">Nike Air Force 1 Low '07 _White _ Black_ - Stadium Goods</div>
+                                <h3>Rp 1.368.000</h3>
+                                <div class="troli" onclick=addTroli()>ADD CART</div>
+                            </div>
+                            <div class="sale"> 
+                                
+                                <div class="buy">BUY</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#gambar4"><img src="gambar/Nike Dunk Low Grey Fog - 45.jpg" alt=""></a>
+
+                    <div class="overlay" id="gambar4">
+                        <a href="#" class="exit">X</a>
+                        <div class="subContent">
+                            <div class="caption">
+                                <img src="gambar/Nike Dunk Low Grey Fog - 45.jpg" alt="">
+                                <div class="capt">Nike Dunk Low Grey Fog - 45</div>
+                                <h3>Rp 1.287.000</h3>
+                                <div class="troli" onclick=addTroli()>ADD CART</div>
+                            </div>
+                            <div class="sale"> 
+                                
+                                <div class="buy">BUY</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#gambar5"><img src="gambar/download.jpg" alt=""></a>
+
+                    <div class="overlay" id="gambar5">
+                        <a href="#" class="exit">X</a>
+                        <div class="subContent">
+                            <div class="caption">
+                                <img src="gambar/download.jpg" alt="">
+                                <div class="capt">Nike Air Force 1 Low '07 _Full White</div>
+                                <h3>Rp 978.578</h3>
+                                <div class="troli" onclick=addTroli()>ADD CART</div>
+                            </div>
+                            <div class="sale"> 
+                                
+                                <div class="buy">BUY</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div id="other">
+            <ul>
+                <li><h4>Icons</h4></li>
+                <li>Air Force 1</li>
+                <li>Huarache</li>
+                <li>Air Max 90</li>
+                <li>Air Max 95</li>
+
+            </ul>
+            <ul>
+                <li><h4>Shoes</h4></li>
+                <li>All Shoes</li>
+                <li>Custom Shoes</li>
+                <li>Jordan Shoes</li>
+                <li>Running Shoes</li>
+
+            </ul>
+            <ul>
+                <li><h4>Clothing</h4></li>
+                <li>All Clothing</li>
+                <li>Modest Wear</li>
+                <li>Hoodie & Pullovers</li>
+                <li>Shirts & Tops</li>
+
+            </ul>
+            <ul>
+                <li><h4>Kids'</h4></li>
+                <li>Infant & Toddle Shoes</li>
+                <li>Kids' Shoes</li>
+                <li>Kids' Jordan Shoes</li>
+                <li>Kids' Backpacks</li>
+
+            </ul>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <table>
+            <tr>
+                <th>FIND A STORE</th>
+                <th>GET HELP</th>
+                <th>ABOUT SHOESTORE</th>
+                
+            </tr>
+            <tr>
+                <th>BECOME A MEMBER</th>
+                <td>Order Status</td>
+                <td>News</td>
+            </tr>
+            <tr>
+                <th>STUDENT DISCOUNTS</th>
+                <td>Delivery</td>
+                <td>Careers</td>
+            </tr>
+            <tr>
+                <th>Send Us Feedback</th>
+                <td>Returns</td>
+                <td>Investors</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Payment Options</td>
+                <td>Sustainbility</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Contact Us</td>
+                <td></td>
+            </tr>
+        </table>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
